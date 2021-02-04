@@ -5,7 +5,7 @@
 # Controller interface on all-in-one network.
 aio_interface: breth0
 aio_bridge_ports:
-  - eth0
+  - ens2
 
 # Route via the seed-hypervisor to the outside world.
 aio_gateway: 192.168.33.4
